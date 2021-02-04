@@ -32,10 +32,10 @@ dark.on("click", function aboutClick(e) {
 
 var slot = $(".slot");
 var img = $("img");
-var s1 = new Audio("./shum1.wav");
-var s2 = new Audio("./popfol1.wav");
-var s3 = new Audio("./popfol2.wav");
-var s4 = new Audio("./pop.wav");
+var s1 = new Audio("./assets/tone/shum1.wav");
+var s2 = new Audio("./assets/tone/popfol1.wav");
+var s3 = new Audio("./assets/tone/popfol2.wav");
+var s4 = new Audio("./assets/tone/pop.wav");
 
 var shumoviArray = [s1, s2, s3, s4];
 var randomShum = shumoviArray[Math.floor(Math.random() * shumoviArray.length)];
@@ -58,18 +58,18 @@ board.hover(function (e) {
 
 //// PROB ASOUND
 
-var ch1 = new Audio("./ch1.wav");
-var ch2 = new Audio("./ch2.wav");
-var ch3 = new Audio("./ch3.wav");
-var ch4 = new Audio("./ch4.wav");
-var ch5 = new Audio("./ch5.wav");
-var ch6 = new Audio("./ch6.wav");
-var ch7 = new Audio("./ch7.wav");
-var ch8 = new Audio("./ch8.wav");
-var ch9 = new Audio("./ch9.wav");
-var ch10 = new Audio("./ch10.wav");
-var ch11 = new Audio("./ch11.wav");
-var ch12 = new Audio("./ch12.wav");
+var ch1 = new Audio("./assets/tone/ch1.wav");
+var ch2 = new Audio("./assets/tone/ch2.wav");
+var ch3 = new Audio("./assets/tone/ch3.wav");
+var ch4 = new Audio("./assets/tone/ch4.wav");
+var ch5 = new Audio("./assets/tone/ch5.wav");
+var ch6 = new Audio("./assets/tone/ch6.wav");
+var ch7 = new Audio("./assets/tone/ch7.wav");
+var ch8 = new Audio("./assets/tone/ch8.wav");
+var ch9 = new Audio("./assets/tone/ch9.wav");
+var ch10 = new Audio("./assets/tone/ch10.wav");
+var ch11 = new Audio("./assets/tone/ch11.wav");
+var ch12 = new Audio("./assets/tone/ch12.wav");
 
 var soundzArray = [
   ch1,
